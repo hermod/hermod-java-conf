@@ -64,7 +64,9 @@
 
     <module name="RegexpSingleline">
         <!-- \s matches whitespace character, $ matches end of line. -->
-        <property name="format" value="\s+$"/>
+        <!--property name="format" value="\s+$"/-->
+        <!-- modified because of a bug in eclipse format which can't manage javadoc * without trailing spaces -->
+        <property name="format" value="[^*]+\s+$"/>
         <property name="message" value="Line has trailing spaces."/>
     </module>
 
