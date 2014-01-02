@@ -6,13 +6,13 @@
 		<version>0.0.4</version>
 	</parent>
 	<artifactId>hermod-java-conf</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 	<scm>
 		<connection>scm:git:git://github.com/hermod/${project.artifactId}.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/hermod/${project.artifactId}.git</developerConnection>
 		<url>https://github.com/hermod/${project.artifactId}.git</url>
-		<tag>HEAD</tag>
+		<tag>hermod-java-conf-0.0.1</tag>
 	</scm>
 	<properties>
 		<projectUrl>${parentUrl}</projectUrl>
